@@ -1,3 +1,4 @@
+
 Feature: Account is credited with amount
 
   Scenario: Credit amount

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.baeldung.cucumber.RunCucumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-08T12:50:03" hostname="UKC02FL92FMD6M" time="0.099">
+  <properties/>
+  <testcase name="Credit amount" classname="com.baeldung.cucumber.RunCucumberTest" time="0.099"/>
+  <system-out><![CDATA[
+Scenario: Credit amount                      ?[90m# src/test/resources/features/account_credited.feature:4?[0m
+  ?[32mGiven ?[0m?[32maccount balance is ?[0m?[32m?[1m0.0?[0m               ?[90m# com.baeldung.cucumber.StepDefinitions.givenAccountBalance(java.lang.Double)?[0m
+  ?[32mWhen ?[0m?[32mthe account is credited with ?[0m?[32m?[1m10.0?[0m     ?[90m# com.baeldung.cucumber.StepDefinitions.whenAccountIsCredited(java.lang.Double)?[0m
+  ?[32mThen ?[0m?[32maccount should have a balance of ?[0m?[32m?[1m10.0?[0m ?[90m# com.baeldung.cucumber.StepDefinitions.thenAccountShouldHaveBalance(java.lang.Double)?[0m
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m┌───────────────────────────────────────────────────────────────────────────────────┐?[0m
+?[32m?[1m│?[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Activate publishing with one of the following:                                    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m More information at ?[36mhttps://reports.cucumber.io/docs/cucumber-jvm?[0m                 ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Disable this message with one of the following:                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m└───────────────────────────────────────────────────────────────────────────────────┘?[0m
+]]></system-err>
+</testsuite>

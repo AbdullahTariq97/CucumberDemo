@@ -1,13 +1,13 @@
-package com.sky.cucumber.glue;
+package com.baeldung.cucumber;
 
-import com.sky.cucumber.models.Account;
+
+import com.baeldung.Account;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class StepDefinitionClass {
-    public class StepDefinitions {
+public class StepDefinitions {
 
         private Account account;
 
@@ -25,6 +25,4 @@ public class StepDefinitionClass {
             assertEquals(expectedBalance, account.getBalance());
         }
 
-
-    }
 }

@@ -1,7 +1,6 @@
-package com.sky.cucumber.models;
+package com.baeldung;
 
 public class Account {
-
     private Double balance;
 
     public Account(Double initialBalance) {
