@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.baeldung.cucumber.RunCucumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-08T12:50:03" hostname="UKC02FL92FMD6M" time="0.099">
+<testsuite name="com.baeldung.cucumber.runner.RunCucumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-08T13:07:38" hostname="UKC02FL92FMD6M" time="0.095">
   <properties/>
-  <testcase name="Credit amount" classname="com.baeldung.cucumber.RunCucumberTest" time="0.099"/>
+  <testcase name="Credit amount" classname="com.baeldung.cucumber.runner.RunCucumberTest" time="0.095"/>
   <system-out><![CDATA[
 Scenario: Credit amount                      ?[90m# src/test/resources/features/account_credited.feature:4?[0m
-  ?[32mGiven ?[0m?[32maccount balance is ?[0m?[32m?[1m0.0?[0m               ?[90m# com.baeldung.cucumber.StepDefinitions.givenAccountBalance(java.lang.Double)?[0m
-  ?[32mWhen ?[0m?[32mthe account is credited with ?[0m?[32m?[1m10.0?[0m     ?[90m# com.baeldung.cucumber.StepDefinitions.whenAccountIsCredited(java.lang.Double)?[0m
-  ?[32mThen ?[0m?[32maccount should have a balance of ?[0m?[32m?[1m10.0?[0m ?[90m# com.baeldung.cucumber.StepDefinitions.thenAccountShouldHaveBalance(java.lang.Double)?[0m
+  ?[32mGiven ?[0m?[32maccount balance is ?[0m?[32m?[1m0.0?[0m               ?[90m# com.baeldung.cucumber.glue.StepDefinitions.givenAccountBalance(java.lang.Double)?[0m
+  ?[32mWhen ?[0m?[32mthe account is credited with ?[0m?[32m?[1m10.0?[0m     ?[90m# com.baeldung.cucumber.glue.StepDefinitions.whenAccountIsCredited(java.lang.Double)?[0m
+  ?[32mThen ?[0m?[32maccount should have a balance of ?[0m?[32m?[1m10.0?[0m ?[90m# com.baeldung.cucumber.glue.StepDefinitions.thenAccountShouldHaveBalance(java.lang.Double)?[0m
 ]]></system-out>
   <system-err><![CDATA[?[32m?[1m┌───────────────────────────────────────────────────────────────────────────────────┐?[0m
 ?[32m?[1m│?[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m│?[0m

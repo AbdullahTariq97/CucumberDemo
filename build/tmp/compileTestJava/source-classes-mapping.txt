@@ -1,4 +1,4 @@
-com/baeldung/cucumber/RunCucumberTest.java
- com.baeldung.cucumber.RunCucumberTest
-com/baeldung/cucumber/StepDefinitions.java
- com.baeldung.cucumber.StepDefinitions
+com/baeldung/cucumber/runner/RunCucumberTest.java
+ com.baeldung.cucumber.runner.RunCucumberTest
+com/baeldung/cucumber/glue/StepDefinitions.java
+ com.baeldung.cucumber.glue.StepDefinitions

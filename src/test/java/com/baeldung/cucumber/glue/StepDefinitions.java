@@ -1,4 +1,4 @@
-package com.baeldung.cucumber;
+package com.baeldung.cucumber.glue;
 
 
 import com.baeldung.Account;
